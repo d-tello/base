@@ -9,13 +9,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </head>
 
 <body>
 
-  <header class="header clearfix animate__navbar">    
-    <a href="" class="header__logo">Logo</a>
+  <header class="header clearfix animate__navbar">
+    <a href="" class="header__logo">
+      <picture>
+        <source srcset="images/shiba_logo-dark.svg" media="(prefers-color-scheme: dark)">
+        <img src="images/shiba_logo-1.svg" alt="Logo">
+      </picture>
+    </a>
     <a href="" class="header__icon-bar">
       <span></span>
       <span></span>

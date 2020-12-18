@@ -72,6 +72,11 @@ Header
   text-decoration: none;
 }
 
+.header__logo img {
+  height: 30px;
+  width: 30px;
+}
+
 .header__menu {
   float: right;
   margin: 0;
