@@ -82,14 +82,10 @@ Header
   background-size: contain;
 }
 
-.header__logo:hover,  .header__logo.hover_effect  {
+.header__logo:hover {
   background-image: url("images/shiba_logo-2.svg") ;
 }
 
-.hover {
--webkit-user-select: none;
--webkit-touch-callout: none;
-}
 
 .header__menu {
   float: right;

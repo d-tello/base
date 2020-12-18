@@ -14,7 +14,7 @@
 <body>
 
   <header class="header clearfix animate__navbar">
-    <a href="" class="header__logo hover">
+    <a href="" class="header__logo">
     </a>
     <a href="" class="header__icon-bar">
       <span></span>
@@ -125,12 +125,7 @@
   </script>
 
   <script>
-  $(document).ready(function() {
-  $('.hover').on('touchstart touchend', function(e) {
-      e.preventDefault();
-      $(this).toggleClass('hover_effect');
-  });
-});
+    $('body').on('touchstart', function() {});
   </script>
 
 </body>
