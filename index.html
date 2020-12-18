@@ -13,7 +13,8 @@
 </head>
 
 <body>
-  <header id="navbar" class="header clearfix animate__navbar">
+
+  <header class="header clearfix animate__navbar">    
     <a href="" class="header__logo">Logo</a>
     <a href="" class="header__icon-bar">
       <span></span>
@@ -108,36 +109,18 @@
     <div class="banner__image"></div>
   </section>
 
-
   <footer class="footer">
     <p>© Copyright 2020 Davide Tello &#8226; <a target="_blank" href="https://stories.freepik.com/web">Illustration by Freepik Stories</a></p>
   </footer>
 
-
-
   <script>
     $(document).ready(function() {
-
       $(".header__icon-bar").click(function(e) {
-        $(".header__menu").toggleClass('is-open');
-        $(".header__icon-bar").toggleClass('is-open2');
+        $(".header__icon-bar, .header__menu").toggleClass('open');
         e.preventDefault();
       });
     });
   </script>
-
-  <!-- <script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-100px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script> -->
 
 </body>
 
