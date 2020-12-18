@@ -72,9 +72,17 @@ Header
   text-decoration: none;
 }
 
-.header__logo img {
-  height: 30px;
-  width: 30px;
+.header__logo  {
+  background-image: url("images/shiba_logo-1.svg") ;
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  top: 10px;
+  background-size: contain;
+}
+
+.header__logo:hover  {
+  background-image: url("images/shiba_logo-2.svg") ;
 }
 
 .header__menu {
@@ -541,6 +549,7 @@ Dark mode
 
   .header__logo {
     color: #7aababff;
+    background-image: url("images/shiba_logo-dark.svg")
   }
 
   .header__menu-item a {
