@@ -503,7 +503,7 @@ Smartphone
 
 
 .header__menu.open {
-  height: 230px;
+  height: 100vh;
   overflow: auto;
 }
 
